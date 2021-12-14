@@ -1,0 +1,1 @@
+# bootstrap-fotocamere-Gazzera-Maffi-Martini
