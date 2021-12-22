@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <title>Fotocamere</title>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Fotocamere</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="offcanvas offcanvas-dark bg-dark offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="color: white;">Fotocamere</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Fotocamere
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="offcanvasNavbarDropdown">
+                                    <li><a class="dropdown-item" href="#">SONY ALPHA A7C</a></li>
+                                    <li><a class="dropdown-item" href="#">SONY CYBER-SHOT DSC-RX10 IV</a></li>
+                                    <li><a class="dropdown-item" href="#">SONY ALPHA A6600</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">    
+                                <a class="nav-link" href="#">Corsi</a>
+                            </li>
+
+                            <li class="nav-item">    
+                                <a class="nav-link" href="#">Guide</a>
+                            </li>
+
+                            <li class="nav-item">    
+                                <a class="nav-link" href="#">Contattateci</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container text-center", style="margin-top: 13vh;">
+            <table class="table table-stripped table-hover table-bordered border-dark">
+                <h1>Fotocamere a confronto</h1>
+
+                <thead class="table-secondary">
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">100A</th>
+                        <th scope="col">200B</th>
+                        <th scope="col">300C</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row"></th>
+                        <td><img src="./img/alpha.png" class="img-thumbnail" alt="Fotocamera Alpha" style="width: 10vw;"></td>
+                        <td><img src="./img/beta.png" class="img-thumbnail" alt="Fotocamera Beta" style="width: 10vw;"></td>
+                        <td><img src="./img/gamma.png" class="img-thumbnail" alt="Fotocamera Gamma" style="width: 10vw;"></td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Produttore</th>
+                        <td>Alpha</td>
+                        <td>Beta</td>
+                        <td>Gamma</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Tipologia</th>
+                        <td>DSLR Entry Level</td>
+                        <td>DSLR Amatoriale</td>
+                        <td>DSLR</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Sul mercato da</th>
+                        <td>Giugno 2018</td>
+                        <td>Maggio 2018</td>
+                        <td>Giugno 2018</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Formati immagine</th>
+                        <td>JPEG, RAW</td>
+                        <td>JPEG, RAW</td>
+                        <td>JPEG, RAW</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Formati video</th>
+                        <td>n.d</td>
+                        <td>MJPEG</td>
+                        <td>n.d</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Microfono interno</th>
+                        <td>n.d</td>
+                        <td>Mono</td>
+                        <td>n.d</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Alimentazione</th>
+                        <td>Batteria LP-E5</td>
+                        <td>Batteria EN-EL9a</td>
+                        <td>Batteria NP-FH50</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Peso pronto all'uso (g.)</th>
+                        <td>502</td>
+                        <td>590</td>
+                        <td>456</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="container my-5 text-center">
+            <h2>Corso di fotografia</h2>
+
+            <div class="ratio ratio-16x9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/75kWgYodwhM" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>
